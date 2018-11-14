@@ -9,6 +9,7 @@ After that, it's just moving a few files around and creating some new files. You
 
 ### Prerequisites
  - You need `node` > 8 installed in your system. Try [NVM](https://github.com/creationix/nvm), it's cool.
+ - You need to install [react-native-cli](https://facebook.github.io/react-native/docs/understanding-cli). `npm i -g react-native-cli`
  - To run/debug/package for Android, you need to [setup your development environment](https://developer.android.com/topic/instant-apps/getting-started/setup.html)
  - To run/debug/package for iOS, you need to [setup your development environment](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/Setup/Setup.html)
 
@@ -17,3 +18,7 @@ After that, it's just moving a few files around and creating some new files. You
 * Clone the project
 * Run `yarn` or `npm i` from the root of the project
 
+### Running
+
+* Run `react-native run-android` from the root of the project to run the Android app. (NOTE: An emulator/device has to be online for this to work)
+* Run `react-native run-ios` from the root of the project to run the iOS app.
