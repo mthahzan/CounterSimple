@@ -1,10 +1,12 @@
 import React from 'react';
-import {View} from 'react-native';
+import {View, Text} from 'react-native';
 
 import styles from './CounterActionButton.styles';
 
 export default (props) => (
   <View>
-    {/* Add stuff here */}
+    <Text>
+      Counter Action Button
+    </Text>
   </View>
 );

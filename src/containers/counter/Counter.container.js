@@ -1,5 +1,5 @@
 import React from 'react';
-import {View} from 'react-native';
+import {View, Text} from 'react-native';
 
 import styles from './Counter.styles';
 
@@ -16,7 +16,9 @@ class CounterContainer extends React.PureComponent {
   render() {
     return (
       <View>
-        {/* Add stuff here */}
+        <Text>
+          Counter
+        </Text>
       </View>
     );
   }
